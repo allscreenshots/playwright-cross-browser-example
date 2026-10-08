@@ -1,0 +1,33 @@
+{
+  "testedAt": "2026-10-08",
+  "environment": {
+    "platform": "macOS arm64",
+    "node": "24.8.0",
+    "playwright": "1.64.0"
+  },
+  "stats": {
+    "startTime": "2026-10-08T09:27:29.958Z",
+    "duration": 17761.567,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "projects": [
+    "chromium",
+    "firefox",
+    "webkit",
+    "mobile-chromium (Pixel 7 emulation)",
+    "mobile-webkit (iPhone 13 emulation)"
+  ],
+  "tests": [
+    "valid form submission and responsive layout",
+    "empty-form validation and full-page capture with end marker"
+  ],
+  "limitations": [
+    "Local fixture, not production flows.",
+    "Mobile profiles are emulation, not real devices.",
+    "Playwright WebKit is not the branded Safari application.",
+    "The committed CI workflow has not yet run on GitHub."
+  ]
+}
